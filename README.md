@@ -1,9 +1,9 @@
 # Tugas 6 Week 11 - Post Manager (Threading & REST API)
 
-**Mata Kuliah   :** Pemrograman Visual  
-**Nama          :** RIFKY AKBAR UTOMO PUTRA  
-**NIM           :** F1D02310149  
-**Kelas         :** D  
+**Mata Kuliah  :** Pemrograman Visual  
+**Nama         :** RIFKY AKBAR UTOMO PUTRA  
+**NIM          :** F1D02310149  
+**Kelas        :** D  
 
 ---
 
