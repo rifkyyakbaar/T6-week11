@@ -1,0 +1,149 @@
+/* =========================================
+   File: style.qss
+   Tema: Modern Clean Dark (Aksen Cyan)
+========================================= */
+
+/* --- 1. Global & Main Window --- */
+QMainWindow {
+    background-color: #1e1e1e; /* Dark grey background */
+    color: #d4d4d4; /* Light text color */
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 14px;
+}
+
+QWidget {
+    color: #d4d4d4;
+}
+
+/* --- 2. Group Boxes (Form & Detail) --- */
+QGroupBox {
+    background-color: #252526; /* Slightly lighter background for groups */
+    border: 1px solid #3e3e42;
+    border-radius: 8px;
+    margin-top: 20px; /* Space for the title */
+    font-weight: bold;
+    color: #4caf50; /* Teal/Green color for group titles */
+    padding: 15px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 0 10px;
+}
+
+/* --- 3. Labels (Form Titles) --- */
+QLabel {
+    background-color: transparent;
+    color: #d4d4d4;
+    font-weight: normal;
+}
+
+/* --- 4. Input Fields (LineEdit & PlainTextEdit) --- */
+QLineEdit, QPlainTextEdit, QComboBox {
+    background-color: #1e1e1e; /* Input background */
+    border: 2px solid #3e3e42;
+    border-radius: 5px;
+    padding: 8px;
+    color: #ffffff;
+    selection-background-color: #00bcd4; /* Accent color for text selection */
+}
+
+QLineEdit:focus, QPlainTextEdit:focus, QComboBox:focus {
+    border: 2px solid #00bcd4; /* Bright cyan border on focus */
+}
+
+QPlainTextEdit#comments_text {
+    background-color: #1e1e1e;
+    color: #aaaaaa; /* Duller text for read-only comments */
+    border: 1px dashed #3e3e42;
+}
+
+/* Style for ComboBox arrow */
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 25px;
+    border-left: none;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #252526;
+    border: 1px solid #3e3e42;
+    color: #ffffff;
+    selection-background-color: #3e3e42;
+}
+
+/* --- 5. Table Widget --- */
+QTableWidget {
+    background-color: #1e1e1e;
+    border: 1px solid #3e3e42;
+    border-radius: 5px;
+    gridline-color: #3e3e42;
+    selection-background-color: #00bcd4; /* Cyan highlight for rows */
+    alternate-background-color: #252526; /* Alternate row color */
+}
+
+QHeaderView::section {
+    background-color: #2d2d30; /* Header background */
+    color: #ffffff;
+    padding: 8px;
+    border: 1px solid #3e3e42;
+    font-weight: bold;
+}
+
+QTableWidget QTableCornerButton::section {
+    background-color: #2d2d30;
+    border: 1px solid #3e3e42;
+}
+
+/* --- 6. Buttons --- */
+QPushButton {
+    background-color: #00bcd4; /* Primary Accent Color (Cyan) */
+    color: #000000; /* Dark text for contrast on cyan */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    min-height: 20px;
+}
+
+QPushButton:hover {
+    background-color: #26c6da; /* Lighter cyan on hover */
+}
+
+QPushButton:pressed {
+    background-color: #00acc1; /* Darker cyan when pressed */
+}
+
+QPushButton:disabled {
+    background-color: #3e3e42; /* Greyed out when disabled */
+    color: #888888;
+}
+
+/* Specific styling for the 'Delete' button (optional red accent) */
+/* Requires setting objectName in Python, e.g., self.delete_button.setObjectName("btnDelete") */
+QPushButton#btnDelete {
+    background-color: #f44336; /* Red for danger */
+    color: white;
+}
+QPushButton#btnDelete:hover { background-color: #ef5350; }
+QPushButton#btnDelete:pressed { background-color: #d32f2f; }
+
+
+/* --- 7. Status Bar --- */
+QLabel#status_label {
+    color: #888888;
+    background-color: #1e1e1e;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+/* --- 9. Message Box (Pop-up) --- */
+QMessageBox {
+    background-color: #252526; /* Background gelap */
+}
+QMessageBox QLabel {
+    color: #ffffff; /* Teks warna putih */
+    background-color: transparent;
+}
