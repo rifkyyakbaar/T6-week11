@@ -1,9 +1,9 @@
-# Tugas 5 - Post Manager (Threading & REST API)
+# Tugas 6 Week 11 - Post Manager (Threading & REST API)
 
-**Mata Kuliah:** Pemrograman Visual  
-**Nama:** RIFKY AKBAR UTOMO PUTRA  
-**NIM:** F1D02310149  
-**Kelas:** D  
+**Mata Kuliah   :** Pemrograman Visual  
+**Nama          :** RIFKY AKBAR UTOMO PUTRA  
+**NIM           :** F1D02310149  
+**Kelas         :** D  
 
 ---
 
@@ -14,7 +14,7 @@ Tantangan utama dalam tugas ini adalah penerapan **Multi-threading** (`QRunnable
 
 ---
 
-## 📸 Penjelasan Fitur & Dokumentasi Pengujian
+## Penjelasan Fitur & Dokumentasi Pengujian
 
 Aplikasi ini telah memenuhi standar operasi CRUD (Create, Read, Update, Delete) melalui 4 metode HTTP (*GET, POST, PUT, DELETE*). Berikut adalah rincian fungsionalitas beserta hasil pengujiannya:
 
@@ -43,7 +43,7 @@ Sesuai dengan ketentuan tugas, penghapusan data bersifat *cascade* (menghapus po
 
 ---
 
-## 🚀 Cara Menjalankan Aplikasi (Instalasi)
+##  Cara Menjalankan Aplikasi (Instalasi)
 
 Ikuti langkah-langkah berikut untuk mencoba aplikasi ini secara lokal:
 
